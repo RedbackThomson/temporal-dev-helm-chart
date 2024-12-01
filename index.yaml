@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  temporal-dev:
+  - apiVersion: v2
+    appVersion: "1.25"
+    created: "2024-12-01T21:48:32.299061817Z"
+    description: A Helm chart for Kubernetes
+    digest: 7b2d7c68ceb7f339f77a4520390c585de017465e9c0dc7a61cb5ef03afa930ed
+    name: temporal-dev
+    type: application
+    urls:
+    - https://github.com/RedbackThomson/temporal-dev-helm-chart/releases/download/temporal-dev-0.1.1/temporal-dev-0.1.1.tgz
+    version: 0.1.1
+generated: "2024-12-01T21:48:32.299070773Z"
