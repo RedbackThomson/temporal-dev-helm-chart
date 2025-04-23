@@ -41,6 +41,9 @@ spec:
           - server
           - start-dev
           - --ip=0.0.0.0
+          {{- range .Values.server.namespaces }}
+          - --namespace={{ . }}
+          {{- end }}
           {{- with .Values.additionalArgs }}
           {{- toYaml . | nindent 10 }}
           {{- end }}

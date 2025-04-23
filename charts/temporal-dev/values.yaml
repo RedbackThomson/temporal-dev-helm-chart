@@ -79,3 +79,7 @@ affinity: {}
 
 serviceAccount:
   name: ""
+
+server:
+  namespaces:
+    - default
